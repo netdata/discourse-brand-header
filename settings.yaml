@@ -1,7 +1,7 @@
 brand_name:
-  default: ""
+  default: "Netdata"
 website_url:
-  default: ""
+  default: "https://netdata.cloud"
 logo_url:
   default: ""
 mobile_logo_url:
@@ -9,7 +9,11 @@ mobile_logo_url:
 links:
   type: list
   list_type: simple
-  default: ""
+  default: >-
+    Get the Agent, https://learn.netdata.cloud/docs/get, _blank|
+    Sign into Cloud, https://app.netdata.cloud, _blank|
+    Netdata Learn, https://learn.netdata.cloud, _blank|
+    Help, https://netdata.cloud/community, _blank
 icons:
   type: list
   list_type: simple
