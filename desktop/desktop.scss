@@ -1,9 +1,12 @@
 @import "theme_variables";
-
+#ember11 > header > div {
+    background-color: var(--header_background);
+}
 .b-header {
   width: 100%;
-  background-color: $tertiary;
-  height: 48px;
+   background-color: var(--header_background);
+//   background-color
+   height: 48px;
   margin-bottom: 0;
 
   .title {

@@ -1,13 +1,14 @@
 @import "theme_variables";
 
 .b-header {
-
   .contents {
-    margin: 8px 0;
+    margin: 14px 0;
   }
 
   #brand-logo {
-    max-height: 32px;
+    // max-height: 32px;
+    height: 24px;
+    margin-top: 5px;
   }
 
   #brand-text-logo {
@@ -26,14 +27,16 @@
     margin-bottom: 0;
     > li > a {
       color: $secondary;
+    //   font-size: 14px;
       line-height: 22px;
       &:hover {
         color: $quaternary;
-        background-color: dark-light-diff($quaternary, $tertiary, -70%, 70%);
+        // background-color: dark-light-diff($quaternary, $tertiary, -70%, 70%);
+        background-color: transparent;
       }
       &.active > a, > a.active {
         color: $secondary;
-        background-color: $quaternary;
+        // background-color: $quaternary;
       }
     }
   }
