@@ -3,9 +3,9 @@ brand_name:
 website_url:
   default: "https://netdata.cloud"
 logo_url:
-  default: ""
+  default: "https://github.com/netdata/developer-relations/blob/main/community/Assets/logo_for_brand_header.png?raw=true"
 mobile_logo_url:
-  default: ""
+  default: "https://github.com/netdata/developer-relations/blob/main/community/Assets/logo_for_brand_header.png?raw=true"
 links:
   type: list
   list_type: simple
