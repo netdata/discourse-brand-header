@@ -9,16 +9,26 @@ mobile_logo_url:
 links:
   type: list
   list_type: simple
+<<<<<<< HEAD
   default: >-
     Get the Agent, https://learn.netdata.cloud/docs/get, _blank|
     Sign into Cloud, https://app.netdata.cloud, _blank|
     Netdata Learn, https://learn.netdata.cloud, _blank|
     Help, https://netdata.cloud/community, _blank
+=======
+  default: ""
+  description: "Format: name,url,target (optional)"
+>>>>>>> f43e89279826686d4966a0047641f61964c28da0
 icons:
   type: list
   list_type: simple
   default: ""
+  description: "Format: icon-name,url,target (optional)"
 custom_font_awesome_icons:
   type: list
   list_type: simple
   default: ""
+  description: "List of FontAwesome 5 icons used in this theme component"
+show_bar_on_mobile:
+  type: bool
+  default: false

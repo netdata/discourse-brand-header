@@ -1,4 +1,5 @@
 .b-header {
+<<<<<<< HEAD
 
   background-color: var(--header_background);
   
@@ -20,6 +21,15 @@
   
     > ul.icons {
       margin: 0 10px 0 0;
+=======
+  .title {
+    padding: 0.5em;
+    a {
+      color: var(--tertiary);
+    }
+    &:visited {
+      color: var(--tertiary);
+>>>>>>> f43e89279826686d4966a0047641f61964c28da0
     }
   }
   
@@ -31,5 +41,40 @@
       vertical-align: middle;
     }
   }
+<<<<<<< HEAD
   
   .profiler-results { display: none ; }
+=======
+}
+
+.profiler-results {
+  display: none;
+}
+
+// applies when show_bar_on_mobile is checked
+.above-site-header-outlet .b-header {
+  width: 100%;
+  background-color: var(--tertiary);
+  height: 48px;
+  margin-bottom: 0;
+
+  .title {
+    float: left;
+    margin-right: 24px;
+    a {
+      color: var(--secondary);
+    }
+    &:visited {
+      color: var(--secondary);
+    }
+    .rtl & {
+      float: right;
+      margin-left: 24px;
+      margin-right: 0;
+    }
+  }
+  .title {
+    padding: 0px;
+  }
+}
+>>>>>>> f43e89279826686d4966a0047641f61964c28da0
