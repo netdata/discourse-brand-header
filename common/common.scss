@@ -24,19 +24,6 @@
   .nav-pills {
     margin-bottom: 0;
     > li > a {
-<<<<<<< HEAD
-      color: $secondary;
-    //   font-size: 14px;
-      line-height: 22px;
-      &:hover {
-        color: $quaternary;
-        // background-color: dark-light-diff($quaternary, $tertiary, -70%, 70%);
-        background-color: transparent;
-      }
-      &.active > a, > a.active {
-        color: $secondary;
-        // background-color: $quaternary;
-=======
       color: var(--secondary);
       line-height: 22px;
       &:hover {
@@ -47,7 +34,6 @@
       > a.active {
         color: var(--secondary);
         background-color: var(--quaternary);
->>>>>>> f43e89279826686d4966a0047641f61964c28da0
       }
     }
   }

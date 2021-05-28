@@ -1,27 +1,4 @@
 .b-header {
-<<<<<<< HEAD
-
-  background-color: var(--header_background);
-  
-    .title {
-      padding: 0.5em;
-      a {
-        color: $tertiary;
-      }
-      &:visited {
-        color: $tertiary;
-      }
-    }
-      .menu-panel{
-          background-color: var(--header_background);
-      }
-    .menu-panel li a.widget-link {
-      width: auto;
-    }
-  
-    > ul.icons {
-      margin: 0 10px 0 0;
-=======
   .title {
     padding: 0.5em;
     a {
@@ -29,7 +6,6 @@
     }
     &:visited {
       color: var(--tertiary);
->>>>>>> f43e89279826686d4966a0047641f61964c28da0
     }
   }
   
@@ -41,10 +17,6 @@
       vertical-align: middle;
     }
   }
-<<<<<<< HEAD
-  
-  .profiler-results { display: none ; }
-=======
 }
 
 .profiler-results {
@@ -77,4 +49,3 @@
     padding: 0px;
   }
 }
->>>>>>> f43e89279826686d4966a0047641f61964c28da0
